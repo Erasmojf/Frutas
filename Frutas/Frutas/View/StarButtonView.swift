@@ -16,8 +16,8 @@ struct StarButtonView: View {
     var body: some View {
         Button(action: {
             isOnboarding = false
-            print("Exit the onboarding")
-        }){
+            
+        }) {
         
             HStack(spacing: 8) {
                 Text("Start")

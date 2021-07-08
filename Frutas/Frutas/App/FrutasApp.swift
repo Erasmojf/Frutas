@@ -15,7 +15,7 @@ struct FrutasApp: App {
         WindowGroup {
             if isOnboarding {
                 OnboardingView()
-            }else {
+            } else {
                 ContentView()
             }
         }
